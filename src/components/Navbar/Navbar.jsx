@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Wrapper } from "./Navbar.styled";
+import { NavbarWrapper } from "./Navbar.styled";
 
 const Navbar = () => {
   return (
-    <Wrapper>
+    <NavbarWrapper>
       <Link href="/">Home</Link>
       <Link href="/contact">Contact</Link>
-    </Wrapper>
+    </NavbarWrapper>
   );
 };
 

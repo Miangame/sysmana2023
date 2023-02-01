@@ -4,12 +4,12 @@ import {
   Input,
   TextArea,
   Title,
-  Wrapper,
+  ContactFormWrapper,
 } from "./ContactForm.styled";
 
 const ContactForm = () => {
   return (
-    <Wrapper>
+    <ContactFormWrapper>
       <Title>Contact me!</Title>
       <Form>
         <Input type="text" placeholder="Name" />
@@ -19,7 +19,7 @@ const ContactForm = () => {
 
         <Button>Send</Button>
       </Form>
-    </Wrapper>
+    </ContactFormWrapper>
   );
 };
 

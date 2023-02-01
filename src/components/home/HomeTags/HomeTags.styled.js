@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const HomeTagsWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -22,4 +22,10 @@ export const Tag = styled.div`
   border-radius: 5px;
   width: fit-content;
   padding: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: rotate(5deg);
+  }
 `;

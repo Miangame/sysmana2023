@@ -1,8 +1,12 @@
-import { Name, StyledParagraph, Wrapper } from "./HomeDescription.styled";
+import {
+  Name,
+  StyledParagraph,
+  HomeDescriptionWrapper,
+} from "./HomeDescription.styled";
 
 const HomeDescription = () => {
   return (
-    <Wrapper>
+    <HomeDescriptionWrapper>
       <Name>Hi! I am Jhon Doe</Name>
       <StyledParagraph>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere autem,
@@ -16,7 +20,7 @@ const HomeDescription = () => {
         consequuntur voluptatum! Assumenda, et consequatur. Possimus totam
         perspiciatis nostrum asperiores!
       </StyledParagraph>
-    </Wrapper>
+    </HomeDescriptionWrapper>
   );
 };
 

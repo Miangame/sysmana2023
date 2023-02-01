@@ -1,15 +1,15 @@
-const { HOME_TAGS } = require("@/constants/homeTags");
-const { Tag, Wrapper, TagsContainer } = require("./HomeTags.styled");
+import { HOME_TAGS } from "@/constants/homeTags";
+import { HomeTagsWrapper, Tag, TagsContainer } from "./HomeTags.styled";
 
 const HomeTags = () => {
   return (
-    <Wrapper>
+    <HomeTagsWrapper>
       <TagsContainer>
         {HOME_TAGS.map((tag) => (
           <Tag key={tag}>{tag}</Tag>
         ))}
       </TagsContainer>
-    </Wrapper>
+    </HomeTagsWrapper>
   );
 };
 

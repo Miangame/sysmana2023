@@ -1,10 +1,10 @@
-import { StyledImage, Wrapper } from "./HomePhoto.styled";
+import { StyledImage, HomePhotoWrapper } from "./HomePhoto.styled";
 
 const HomePhoto = () => {
   return (
-    <Wrapper>
+    <HomePhotoWrapper>
       <StyledImage src="/img/profile-photo.jpeg" alt="home photo" />
-    </Wrapper>
+    </HomePhotoWrapper>
   );
 };
 
