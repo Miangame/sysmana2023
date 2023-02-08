@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { NavbarWrapper } from "./Navbar.styled";
+import {ROUTES} from '@/constants/routes'
 
 const Navbar = () => {
   return (
     <NavbarWrapper>
-      <Link href="/">Home</Link>
-      <Link href="/contact">Contact</Link>
+      {ROUTES.map(({name, path}) => (
+        <Link href={path}>{name}</Link>
+      ))}
     </NavbarWrapper>
   );
 };
